@@ -6,7 +6,9 @@ class Header extends React.Component {
         return (
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                <h1 className="App-title">Welcome to React</h1>
+                <h1 className="App-title">Welcome to {this.props.name}</h1>
+                <h3>{this.props.title}</h3>
+                
             </header>
         )
     }
